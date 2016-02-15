@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ng2</title>
+  </head>
+
+  <body>
+    <client-cmp></client-cmp>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfill.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.js"></script>
+
+    <script>
+      System.import('client.js');
+    </script>
+  </body>
+</html>
